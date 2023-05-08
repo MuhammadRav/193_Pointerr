@@ -7,6 +7,14 @@ public:
 	void showNim();	//deklarasi methode
 };
 
-void mahasiswa::showNim() {
+void mahasiswa::showNim() {		//implementasi methode di luar class
 	cout << "No Induk = " << nim << endl;
+}
+
+int main()
+{
+	mahasiswa mhs(1);		//objek mhs
+	mhs.showNim();			//Member Access Operator
+
+	mahasiswa ref = mhs;
 }
