@@ -13,7 +13,7 @@ void mahasiswa::showNim() {		//implementasi methode di luar class
 
 int main()
 {
-	mahasiswa mhs( 1 );		//objek mhs
+	mahasiswa mhs{ 1 };		//objek mhs
 	mhs.showNim();			//Member Access Operator
 
 	mahasiswa& ref = mhs;		//pointer References refMhs
