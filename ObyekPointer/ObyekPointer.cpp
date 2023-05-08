@@ -4,7 +4,9 @@ using namespace std;
 class mahasiswa {
 public:
 	int nim;
-	void ShowNim();	//deklarasi methode
+	void showNim();	//deklarasi methode
 };
 
-void
+void mahasiswa::showNim() {
+	cout << "No Induk = " << nim << endl;
+}
